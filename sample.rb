@@ -5,8 +5,8 @@ require_relative "checksum"
 # Config Parameter
 cust_id = "xx"
 gateway = "xxxxxxxxxx"
+ioturl  = "https://xxxx/xx/xxx"
 usbport = "/dev/ttyUSB0"
-ioturl  = "https://iot.fanbright.jp/v1/enocean"
 @serial = SerialPort.new(usbport,57600,8,1,SerialPort::NONE)
 
 loop do
